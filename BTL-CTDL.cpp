@@ -83,11 +83,7 @@ class QuanLi{
 			cin>>newNhanVien->LuongCoBan;
 			cout<<"Phu Cap: "; 
 			cin>>newNhanVien->Phucap;
-			if( newNhanVien->ThucLinh <0){
 			newNhanVien->ThucLinh = newNhanVien->LuongCoBan + newNhanVien->Phucap;
-		}else{
-			newNhanVien->ThucLinh = newNhanVien->LuongCoBan + newNhanVien->Phucap;
-		}
 			if(head == NULL)
 			{
 				head = newNhanVien;
