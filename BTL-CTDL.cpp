@@ -209,24 +209,7 @@ class QuanLi{
 		}
 	}
 
-//	void Luong10m()
-//	{
-//		long long int luong;
-//			NhanVien* run = head; 
-//			cout<<"Nhan vien co luong tren 10m : \n";
-//			cout<<"MaNV|HovaTen|GioiTinh|NamSinh|NoiSinh|DiaChi|CCCD|ChucVu|LuongCoBan|PhuCap|ThucLinh\n";
-//			while(run != NULL)
-//			{
-//				
-//				if(run->ThucLinh >= 10000000)
-//				{
-//						cout<<run->MaNv<<"|"<<run->HoTenNv<<"|"<<run->GioiTinh<<"|"<<run->NamSinh<<"|"<<run->NoiSinh;
-//			    		cout<<"|"<<run->DiaChi<<"|"<<run->cccd<<"|"<<run->ChucVu<<"|"<<run->LuongCoBan<<"|"<<run->Phucap<<"|"<<run->ThucLinh<<"\n";
-//				}
-//				run =run->next;
-//			}
-//			
-//	}
+
 	void Luong10m()
 	{
 		long long int luong;
@@ -324,11 +307,11 @@ class QuanLi{
 int main(){
 	QuanLi *BaiTapLon = new QuanLi();
 	while(1){
-		cout<<"------------Menu--------------"<<endl;
-		cout<<"\t 0-Nhap so luong nhan vien hien tai:"<<endl;
-		cout<<"\t 1-Chen "<<endl;
-		cout<<"\t 2-Xoa "<<endl;
-		cout<<"\t 3-Tim kiem "<<endl;
+	cout<<"------------Menu--------------"<<endl;
+	cout<<"\t 0-Nhap so luong nhan vien hien tai:"<<endl;
+	cout<<"\t 1-Chen "<<endl;
+	cout<<"\t 2-Xoa "<<endl;
+	cout<<"\t 3-Tim kiem "<<endl;
         cout<<"\t 4-Tim Kiem theo luong "<<endl;
         cout<<"\t 5-Sap xep theo luong"<<endl;
         cout<<"\t 6-Phan theo gioi tinh"<<endl;
